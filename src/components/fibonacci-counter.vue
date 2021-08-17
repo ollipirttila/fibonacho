@@ -1,7 +1,7 @@
 <template>
   <div class="fibonator-container">
     <ControlButton @click="logUserOut" button-title="Kirjaudu ulos" />
-    <h1>Fibonachin luku</h1>
+    <h1>Fibonaccin luku</h1>
     <h2 class="number-display">{{ getFiboNumber }}</h2>
     <ControlButton @click="decrement" button-title="Pienempi" />
     <ControlButton @click="increment" button-title="Isompi" />
@@ -13,7 +13,7 @@ import { mapGetters, mapActions } from "vuex";
 import ControlButton from "@/components/control-button.vue";
 
 export default {
-  name: "FibonachiCounter",
+  name: "FibonacciCounter",
   components: {
     ControlButton,
   },

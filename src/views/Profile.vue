@@ -1,20 +1,21 @@
 <template>
   <div class="profile">
-    <FibonachiCounter />
+    <FibonacciCounter />
   </div>
 </template>
 
 <script>
-import FibonachiCounter from "@/components/fibonachi-counter.vue";
+import FibonacciCounter from "@/components/fibonacci-counter.vue";
 import { mapGetters } from "vuex";
 
 export default {
   name: "Login",
   components: {
-    FibonachiCounter,
+    FibonacciCounter,
   },
   computed: {
     ...mapGetters(["getLoginStatus"]),
   },
 };
 </script>
+<style scoped lang="scss"></style>
