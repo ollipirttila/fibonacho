@@ -1,18 +1,21 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <!-- Tähän 2 komponenttia (Login ja Main), jotka rendataan sen perusteella onko staten isLogged true vai false. -->
+    <LoginForm />
+    <FibonachiCounter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import LoginForm from "@/components/login-form.vue";
+import FibonachiCounter from "@/components/fibonachi-counter.vue";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld,
+    LoginForm,
+    FibonachiCounter,
   },
 };
 </script>
