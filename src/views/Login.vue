@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <LoginForm v-if="!getLoginStatus" />
-    {{ getLoginStatus }}
   </div>
 </template>
 

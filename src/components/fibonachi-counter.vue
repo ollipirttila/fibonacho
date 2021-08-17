@@ -1,5 +1,6 @@
 <template>
   <div class="fibonator-container">
+    <ControlButton @click="logUserOut" button-title="Kirjaudu ulos" />
     <h1>Fibonachin luku</h1>
     <h2 class="number-display">{{ getFiboNumber }}</h2>
     <ControlButton @click="decrement" button-title="Pienempi" />
@@ -17,7 +18,7 @@ export default {
     ControlButton,
   },
   methods: {
-    ...mapActions(["increment", "decrement"]),
+    ...mapActions(["increment", "decrement", "logUserOut"]),
   },
   computed: {
     ...mapGetters(["getFiboNumber"]),

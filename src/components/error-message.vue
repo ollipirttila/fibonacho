@@ -17,5 +17,6 @@ export default {
 <style scoped lang="scss">
 @import "../variables.scss";
 .error-message {
+  color: red;
 }
 </style>

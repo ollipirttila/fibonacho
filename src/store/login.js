@@ -14,7 +14,7 @@ const loginModule = {
       state.isLogged = true;
     },
     logOut(state) {
-      state.islogged = false;
+      state.isLogged = false;
     },
   },
   actions: {
@@ -24,6 +24,7 @@ const loginModule = {
     },
     logUserOut(context) {
       context.commit("logOut");
+      router.push({ name: "Login" });
     },
   },
 };
