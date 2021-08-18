@@ -26,6 +26,10 @@ const calculationModule = {
         state.currentFibNumber = state.calculateFiboNumber(state.index);
       }
     },
+    resetFibNumber(state) {
+      state.currentFibNumber = 1;
+      state.index = 1;
+    },
   },
   actions: {
     increment(context) {
@@ -33,6 +37,9 @@ const calculationModule = {
     },
     decrement(context) {
       context.commit("decrease");
+    },
+    resetCalculation(context) {
+      context.commit("resetFibNumber");
     },
   },
 };

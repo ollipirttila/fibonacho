@@ -1,10 +1,17 @@
 <template>
   <div class="fibonator-container">
-    <ControlButton @click="logUserOut" button-title="Kirjaudu ulos" />
     <h1>Fibonaccin luku</h1>
-    <h2 class="number-display">{{ getFiboNumber }}</h2>
-    <ControlButton @click="decrement" button-title="Pienempi" />
-    <ControlButton @click="increment" button-title="Isompi" />
+    <div class="number-display">{{ getFiboNumber }}</div>
+    <ControlButton
+      class="control-button"
+      @click="decrement"
+      button-title="Pienempi"
+    />
+    <ControlButton
+      class="control-button"
+      @click="increment"
+      button-title="Isompi"
+    />
   </div>
 </template>
 
@@ -26,4 +33,13 @@ export default {
 };
 </script>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import "../variables.scss";
+.number-display {
+  font-size: $font-size-big-number;
+  margin: 50px 0;
+}
+.control-button {
+  margin-bottom: 20px;
+}
+</style>

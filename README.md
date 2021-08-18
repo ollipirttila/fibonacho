@@ -1,24 +1,22 @@
 # fibonacho
 
+Prerequisites:
+
+- Node and npm installed. (Tested to work with node v14.17.5.
+
 ## Project setup
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile dev build and start dev server
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+ASSIGNMENT NOTES:
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- You can see interactive UI plans at [Figma] (https://www.figma.com/file/fqxvflN1E286qBIdpWR4N3/Fibonacho?node-id=15%3A154)
+- UI plans can be found [here](UI-suunnitelmat.pdf)

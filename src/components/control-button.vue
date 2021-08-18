@@ -22,10 +22,22 @@ export default {
 @import "../variables.scss";
 .control-button {
   background-color: $primary-color;
-  color: $white;
+  color: $warm-white;
   border: none;
-  border-radius: 4px;
-  padding: 5px 10px;
-  margin-right: 10px;
+  width: 80%;
+  border-radius: 5px;
+  padding: 15px 0;
+  font-size: $font-size-h2;
+  box-sizing: border-box;
+  &:active {
+    background-color: $moss;
+    color: $navy;
+  }
+}
+@media only screen and (min-width: $breakpoint-tablet) {
+  .control-button:hover {
+    // Hover on desktop use.
+    background-color: $moss;
+  }
 }
 </style>
