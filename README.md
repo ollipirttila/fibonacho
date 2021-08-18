@@ -19,4 +19,4 @@ npm run serve
 ASSIGNMENT NOTES:
 
 - You can see UI plans at this [Figma-project](https://www.figma.com/file/fqxvflN1E286qBIdpWR4N3/Fibonacho?node-id=15%3A154)
-- UI plans can also be found [here](UI-suunnitelmat.pdf) in a PDF format.
+- UI plans can also be found [here](./UI-Suunnitelmat.pdf) in a PDF format.
