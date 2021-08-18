@@ -3,6 +3,7 @@
 Prerequisites:
 
 - Node and npm installed. (Tested to work with node v14.17.5.)
+- Username for the dev app is: **sala** and password is: **kala**
 
 ## Project setup
 
