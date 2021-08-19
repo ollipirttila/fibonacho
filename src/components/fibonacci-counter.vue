@@ -36,8 +36,9 @@ export default {
 <style scoped lang="scss">
 @import "../variables.scss";
 .number-display {
-  font-size: $font-size-big-number;
-  margin: 50px 0;
+  overflow: auto;
+  font-size: $font-size-h1;
+  margin: 40px 0;
 }
 .control-button {
   margin-bottom: 20px;
